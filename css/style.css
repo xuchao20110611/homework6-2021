@@ -102,6 +102,12 @@ header{
         flex-direction: row;
         justify-content: space-around;
     }
+    .card> ul li:nth-child(odd)::before{
+        content:"\1F44D";
+    }
+    .card> ul li:nth-child(even)::after{
+        content:"\1F44D";
+    }
 
     .pricing{
         flex-wrap: nowrap;
